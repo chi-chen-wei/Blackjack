@@ -20,12 +20,12 @@ public:
     Game(int, int);
     ~Game();
     
-    void createCards(); // initialize Cards
+    void createCards(); 
     void shuffleCards();
     void setDealer(int, bool);
     void setPlayerBet();
     void playGame();
-    void initialHand(); //initialHand
+    void initialHand(); 
     void deal(Player&);
     void checkInsurance();
     void checkResult();
