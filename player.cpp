@@ -138,48 +138,11 @@ bool Player::hasSpecialCards() {
     return true;
 }
 
-void Player::wantDouble() { // to edit
+void Player::wantDouble() {
     m_bet *= 2;
-    /*
-    if (m_cardTotal == 11) {
-        int doubleBet;
-        start:
-        cout << "Player " << m_playerNum << " Do you want to double your bet? 1: yes 2: no ";
-        cin >> doubleBet;
-        switch(doubleBet) {
-            case 1:
-                m_bet *= 2;
-                return true;
-            case 2:
-                return false;
-            default:
-                goto start;
-                break;
-        }
-    }
-    return false;
-     */
 }
 
 void Player::wantSurrender() {
     m_surrender = true;
     m_bet *= (-0.5);
-    /*
-    int surrender;
-    start:
-    cout << "Player " << m_playerNum << " Do you want to surrender? 1: yes 2: no ";
-    cin >> surrender;
-    switch(surrender) {
-        case 1:
-            m_surrender = true;
-            m_bet *= (-0.5);
-            return true;
-        case 2:
-            return false;
-        default:
-            goto start;
-            break;
-    }
-    return false;
-     */
 }
