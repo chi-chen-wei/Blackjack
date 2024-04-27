@@ -10,7 +10,7 @@ A practical application of breaking a program into bit-sized problems, which all
 
 * #players: 2~4
 * enter #rounds you wish to play
-* card total calculated to the player's advantage
+* card total calculated to the player's advantage (Ace can be counted as 1 or 11)
 * players would be counted as out if they had a balance less than the minimum bet
 * also, if there were less than two players left in the game with rounds remaining, the game automatically terminated and the final result would be printed
 
