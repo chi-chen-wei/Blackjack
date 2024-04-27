@@ -74,16 +74,6 @@ void Game::playGame() {
         if (!m_players[i].isOut() && !m_players[i].isDealer()) {
             m_players[i].printCards("up");
             deal(m_players[i]);
-            /*
-            if (m_players[i].wantDouble()) {
-                m_players[i].addCard(m_deckOfCards[m_deckIndex++]);
-                m_players[i].printCards("up");
-            } else if (m_players[i].wantSurrender()) {
-                
-            } else {
-                deal(m_players[i]);
-            }
-             */
         }
     }
     
@@ -156,27 +146,6 @@ void Game::deal(Player& player) {
         }
         
     }
-    /*
-    bool hit = true;
-    while(!player.isOut() && !player.busts() && hit && player.getCardTotal() != 21) {
-        int more;
-        start:
-        cout << "Player " << player.getPlayerNum() << " do you want more cards? 1: yes 2: no ";
-        cin >> more;
-        switch(more) {
-            case 1:
-                player.addCard(m_deckOfCards[m_deckIndex++]);
-                player.printCards("up");
-                break;
-            case 2:
-                hit = false;
-                break;
-            default:
-                goto start;
-                break;
-        }
-    }
-     */
 }
 
 void Game::checkInsurance() {
