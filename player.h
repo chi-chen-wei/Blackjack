@@ -28,7 +28,7 @@ public:
     
     bool isDealer() const;
     bool busts() const;
-    bool isOut() const; // rename?
+    bool isOut() const;
     bool surrenders() const;
     bool firstCardIsAce();
     bool hasSpecialCards();
