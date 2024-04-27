@@ -16,10 +16,9 @@ A practical application of breaking a program into bit-sized problems, which all
 
 ## Game snapshots
 
-<img width="452" alt="image" src="https://github.com/chi-chen-wei/black_jack/assets/46983338/c89d36d8-16f3-4224-8fc2-1fb56533933f">
-<img width="452" alt="image" src="https://github.com/chi-chen-wei/black_jack/assets/46983338/066e341d-41ef-444e-bc2f-e508a02ea6e8">
-<img width="1440" alt="Screenshot 2024-04-10 at 3 54 17 PM" src="https://github.com/chi-chen-wei/black_jack/assets/46983338/a73ba412-2a91-4b54-a23e-16ca9d4358ef">
-
+<img width="450" alt="Screenshot 2024-04-27 at 4 39 31 PM" src="https://github.com/chi-chen-wei/black_jack/assets/46983338/8c066d9b-86a4-4e4c-814b-49842cb4a616">
+ 
+<img width="450" alt="Screenshot 2024-04-10 at 3 54 48 PM" src="https://github.com/chi-chen-wei/black_jack/assets/46983338/d523e0fa-6ffd-410a-b734-91a18ab7f6fa">
 
 ## An executable for you to test the project directly
 
